@@ -1,0 +1,21 @@
+.project-group {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.project-image {
+    width: 30%;
+    height: auto;
+}
+ 
+.header {
+    margin-right: 25%;
+
+}
