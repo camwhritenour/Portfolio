@@ -10,7 +10,7 @@ import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
-// import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPage';
 
 
 const router = createBrowserRouter([
@@ -27,10 +27,10 @@ const router = createBrowserRouter([
         path: 'projects',
         element: <ProjectsPage />,
       },
-    //   {
-    //     path: 'contact',
-    //     element: <ContactPage />,
-    //   },
+      {
+        path: 'contact',
+        element: <ContactPage />,
+      },
     ],
   },
 ]);
