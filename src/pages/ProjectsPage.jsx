@@ -5,25 +5,25 @@ const projects = [
         id: 1,
         name: "Foodr",
         link: "https://camwhritenour.github.io/Foodr/",
-        img: "src/assets/foodr.png"
+        img: "assets/foodr.png"
     },
     {
         id: 2,
         name: "DataDish",
         link: "https://agile-hollows-63324-0df4568dcdbc.herokuapp.com/login",
-        img: "src/assets/DataDish.png"
+        img: "assets/DataDish.png"
     },
     {
         id: 3,
         name: "Password Generator",
         link: "https://camwhritenour.github.io/Homework03-Password-Generator/",
-        img: "src/assets/PasswordGen.png"
+        img: "assets/PasswordGen.png"
     },
     {
         id: 4,
         name: "Quiz App",
         link: "https://camwhritenour.github.io/Homework04-Quiz/",
-        img: "src/assets/Quiz.png"
+        img: "assets/Quiz.png"
     },
 ]
 

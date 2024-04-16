@@ -15,23 +15,23 @@ export default function Hero() {
                 <div className="hero-img">
                     <div>
                         <div className="tech-icon">
-                            <img src="src/assets/react.svg" />
+                            <img src="assets/react.svg" />
                         </div>
-                        <img src="src/assets/portrait.svg" alt="" />
+                        <img src="assets/portrait.svg" alt="" />
                     </div>
 
                     <div>
                         <div className="tech-icon">
-                            <img src="src/assets/html5.svg" />
+                            <img src="assets/html5.svg" />
                         </div>
                         <div className="tech-icon">
-                            <img src="src/assets/css.svg" />
+                            <img src="assets/css.svg" />
                         </div>
                         <div className="tech-icon">
-                            <img src="src/assets/javascript.svg" />
+                            <img src="assets/javascript.svg" />
                         </div>
                         <div className="tech-icon">
-                        <img src="src/assets/mongodb.svg"/>
+                        <img src="assets/mongodb.svg"/>
                     </div>
                     </div>
                 </div>
