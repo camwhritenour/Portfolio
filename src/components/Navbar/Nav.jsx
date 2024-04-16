@@ -51,7 +51,7 @@ export default function Nav() {
               className='btn-symbols'
               style={{ fontSize: "1.8rem" }}
             >
-              {openMenu ? <img src="assets/close.svg" alt="" /> : <img src="assets/menu.svg" alt="" />}
+              {openMenu ? <img src="/assets/close.svg" alt="" /> : <img src="/assets/menu.svg" alt="" />}
             </span>
           </button>
 
@@ -59,12 +59,4 @@ export default function Nav() {
       </nav>
     </>
   );
-}
-
-// <Navbar
-//   links={[
-
-
-
-//   ]}
-// />
+};
