@@ -1,0 +1,38 @@
+.projects-group {
+    display: flex;
+    position: relative;
+    margin: 50px;
+    flex-wrap: wrap;
+
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.project-image {
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    filter: blur(4px);
+    z-index: 0; 
+}
+
+.project-image:hover {
+    filter: blur(0);
+}
+
+
+.project-title {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .project-item {
+    width: 100%;
+    }
+}

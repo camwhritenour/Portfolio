@@ -11,6 +11,7 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
+import ResumePage from './pages/ResumePage';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <ContactPage />,
       },
+      {
+        path: 'resume',
+        element: <ResumePage />
+      }
     ],
   },
 ]);

@@ -1,29 +1,29 @@
-import ProjectList from "../components/Project";
+import ProjectList from "../components/Projects/Project";
 
 const projects = [
     {
         id: 1,
         name: "Foodr",
-        link: "",
-        img: "/src/components/UI/images/foodr.png"
+        link: "https://camwhritenour.github.io/Foodr/",
+        img: "src/assets/foodr.png"
     },
     {
         id: 2,
         name: "DataDish",
-        link: "",
-        img: "/src/components/UI/images/foodr.png"
+        link: "https://agile-hollows-63324-0df4568dcdbc.herokuapp.com/login",
+        img: "src/assets/DataDish.png"
     },
     {
         id: 3,
         name: "Password Generator",
-        link: "",
-        img: "/src/components/UI/images/foodr.png"
+        link: "https://camwhritenour.github.io/Homework03-Password-Generator/",
+        img: "src/assets/PasswordGen.png"
     },
     {
         id: 4,
-        name: "Coding Quiz",
-        link: "",
-        img: "/src/components/UI/images/foodr.png"
+        name: "Quiz App",
+        link: "https://camwhritenour.github.io/Homework04-Quiz/",
+        img: "src/assets/Quiz.png"
     },
 ]
 

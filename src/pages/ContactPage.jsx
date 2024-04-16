@@ -1,12 +1,16 @@
 import { useState } from "react";
 
 export default function ContactForm(props) {
-    const [input, setInput] = useState('');
+    const [nameInput, setNameInput] = useState('');
+    const [emailInput, setEmailInput] = useState('');
+    const [messageInput, setMessageInput] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        setInput('');
+        setNameInput('');
+        setEmailInput('');
+        setMessageInput('');
     };
 
     const handleChange = (e) => {
@@ -18,33 +22,44 @@ export default function ContactForm(props) {
     return (
         <div>
             <form className="contact-form" onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="Enter your Name here."
-                    value={input}
-                    name="name"
-                    className="contact-input"
-                    onChange={handleChange}
-                ></input>
 
-                <input
-                    type="text"
-                    placeholder="Enter your Email here."
-                    value={input}
-                    name="email"
-                    className="contact-input"
-                    onChange={handleChange}
-                ></input>
-
-                <input
+                
+                <div>
+                    <p>
+                        Name: {nameInput}
+                        <input
+                        type="text"
+                        placeholder="Enter your Name here."
+                        value={nameInput}
+                        name="name"
+                        className="contact-input"
+                        onChange={(e) => { setNameInput(e.target.value) }}
+                    ></input>
+                    </p>
+                    <p>
+                        Email: {emailInput}
+                        <input
+                        type="text"
+                        placeholder="Enter your Email here."
+                        value={emailInput}
+                        name="email"
+                        className="contact-input"
+                        onChange={(e) => { setEmailInput(e.target.value) }}
+                    ></input>
+                    </p>
+                    <p>
+                        Message: {messageInput}
+                        <input
                     type="text"
                     placeholder="Enter your message here."
-                    value={input}
+                    value={messageInput}
                     name="message"
                     className="contact-input"
-                    onChange={handleChange}
+                    onChange={(e) => { setMessageInput(e.target.value) }}
                 ></input>
-
+                    </p>
+                </div>
+                <button type="submit">Submit</button>
             </form>
         </div>
     )

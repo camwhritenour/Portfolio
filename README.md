@@ -1,7 +1,36 @@
-# Portfolio
-Professional Portfolio
 
-https://youtu.be/yp6tRkS-QBU?si=oYD3acdWs8Vhpoyn
-https://youtu.be/4ag1LsgIUc0?si=szf4CpJhI7lcMdil
-https://youtu.be/hkHHwA-vEyQ?si=TpOJinuh04hJORKz
-https://www.w3schools.com/REACT/DEFAULT.ASP
+  # Cam Whritenour Professional Portfolio
+  
+
+  ## Description
+  This my professional portfolio built using React.
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+  ## Installation
+  NA
+
+  ## Usage
+  Navigate to the website, use the tabs to view the different pages.
+
+  ## License
+  
+
+  ## Contributing
+  Cam Whritenour wrote the code, Homepage and Nav Design heavily inspired by Time to Program, and the icons are from Icons8.
+
+  ## Tests
+  None
+
+  ## Questions
+  My GitHub username: camwhritenour
+  
+ Reach out to me with any questions @ whritenourc@outlook.com
+
+

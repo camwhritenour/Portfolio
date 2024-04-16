@@ -1,25 +1,18 @@
-.projects-group {
-    display: flex;
-    position: relative;
-    margin-top: 10px;
-    flex-wrap: wrap;
 
-}
 
-.project-item {
-    display: flex;
-    justify-content: space-between;
-    justify-content: flex-start;
-    width: 50%;
-    
-
-}
-.project-image {
-    width: 75%;
-    height: auto;
-}
- 
 .header {
     margin-right: 25%;
 
+}
+
+.container {
+    max-width: 1300px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        padding: 0 1.5rem;
+    }
 }
