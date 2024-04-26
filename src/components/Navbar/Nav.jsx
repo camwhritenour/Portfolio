@@ -41,7 +41,7 @@ export default function Nav() {
               </Link>
             </li>
 
-            <button className='contact-btn' onClick={() => { }}>
+            <button className='contact-btn' onClick={() => {window.open(`https://drive.google.com/file/d/1IV1EAM5cDR46vhbi5YKw1vz3wPm7tbMx/view?usp=drive_link`) }}>
               Hire Me
             </button>
           </ul>
