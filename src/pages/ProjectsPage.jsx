@@ -25,6 +25,18 @@ const projects = [
         link: "https://camwhritenour.github.io/Homework04-Quiz/",
         img: "/assets/Quiz.png"
     },
+    {
+        id: 5,
+        name: "codeCave",
+        link: "https://codecave.onrender.com/home",
+        img: "/assets/codeCave.png"
+    },
+    {
+        id: 6,
+        name: "Fighting Game",
+        link: "https://samuraivsknight.netlify.app/",
+        img: "/assets/fightingGame.png"
+    },
 ]
 
 export default function Projects() {
