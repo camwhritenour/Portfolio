@@ -6,8 +6,8 @@ export default function ProjectList (props) {
         <section className="projects-group">
             {props.projects.map(item => (
                 <figure className="project-item" key={item.id}>
-                    <h3 className="project-title">{item.name}</h3>
                     <img src={item.img} className="project-image" onClick={(e) => {window.open(item.link)}}/>
+                    <h3 className="project-info">{item.description}</h3>
                 </figure>
             ))}
         </section>

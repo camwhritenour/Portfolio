@@ -26,9 +26,15 @@
     filter: blur(0);
 }
 
+.project-image:hover + .project-info {
+    display: flex;
+}
 
-.project-title {
+
+
+.project-info {
     display: none;
+    padding-left: 10px;
 }
 
 @media (max-width: 769px) {
